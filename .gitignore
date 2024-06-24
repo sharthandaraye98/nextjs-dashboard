@@ -1,0 +1,44 @@
+# Node.js/Next.js specific entries
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build directories
+.next/
+out/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Production files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js specific
+.cache/
+coverage/
+
+# IDE specific
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other
+!.prettierignore
